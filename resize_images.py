@@ -29,7 +29,7 @@ for filename in os.listdir('.'):
             height = SQUARE_FIT_SIZE
 
         # Resize the image.
-        print('Resizing %s...' % (filename))
+        print(f'Resizing {filename}...')
         im = im.resize((width, height))
 
 
