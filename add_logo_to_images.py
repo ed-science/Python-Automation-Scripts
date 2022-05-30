@@ -23,7 +23,7 @@ for filename in os.listdir('.'):
 
 
     # Add logo.
-    print('Adding logo to %s...' % (filename))
+    print(f'Adding logo to {filename}...')
     im.paste(logoIm, (width - logoWidth, height - logoHeight), logoIm)
 
     # Save changes.
